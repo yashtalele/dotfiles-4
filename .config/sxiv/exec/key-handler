@@ -1,0 +1,27 @@
+#!/bin/bash
+while read file
+do
+    case "$1" in
+    "W")
+            swaybg -o DP-2 -i "$file" &
+            swaybg -o DP-3 -i "$file" &
+            cp -rf "$file" "$HOME/.config/sxiv/external.png" &&
+            notify-send -i "$HOME/.config/sxiv/notifi.png" "Wallpaper changed." ;;
+
+    "w")
+            swaybg -o eDP-1 -m file -i "$file" &
+            cp -rf "$file" "$HOME/.config/sxiv/main.png" &&
+            notify-send -i "$HOME/.config/sxiv/notifi.png" "Wallpaper changed." ;;
+
+    "y")
+            printf "%s" "$file" | tr -d '\n' | xclip -selection clipboard &&
+            notify-send -i "$file copied to clipboard" & ;;
+
+    "i")
+            notify-send -i "File information" "$(mediainfo "$file")" ;; 
+
+    "d")
+            [ "$(printf "No\\nYes" | dmenu -i -p "Really delete  $file?")" = "Yes"  ] && rm "$file" &&
+            notify-send -i "$file deleted." ;;
+    esac
+done

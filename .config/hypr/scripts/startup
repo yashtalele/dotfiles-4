@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+
+## Autostart Programs
+
+# Kill already running process
+_ps=(waybar mako mpd xfce-polkit swww wl-paste)
+for _prs in "${_ps[@]}"; do
+	if [[ `pidof ${_prs}` ]]; then
+		killall -9 ${_prs}
+	fi
+done
+
+# Polkit agent
+/usr/lib/xfce-polkit/xfce-polkit &
+
+# Set wallpaper
+swww init &
+swww img -o eDP-1 ~/.config/hypr/wallpapers/wallpaper-3.jpg --transition-fps 60 --transition-step 5 &
+swww img -o DP-2 ~/.config/hypr/wallpapers/wallpaper-8.jpg --transition-fps 60 --transition-step 5 &
+swww img -o DP-3 ~/.config/hypr/wallpapers/wallpaper-8.jpg --transition-fps 60 --transition-step 5 &
+
+# Launch wayland protocol
+~/.config/hypr/scripts/wland &
+
+# Apply themes
+~/.config/hypr/scripts/gtkthemes &
+
+# Lauch notification daemon (mako)
+~/.config/hypr/scripts/notifications &
+
+# Start mpd
+exec mpd &
+
+# Lauch statusbar (waybar)
+sleep 3 && ~/.config/hypr/scripts/statusbar &
+
+#killall -SIGUSR2 waybar &
+
+# clipman manager
+wl-paste -t text --watch clipman store --no-persist &
+
+hyprctl reload &
+
+# sxvi background black color
+xrdb ~/.Xresources &
+
+# idle lockscreen
+swayidle -w timeout 900 '$HOME/.config/hypr/scripts/gtklock' timeout 300 'pgrep -x gtklock' && mpc pause &

@@ -1,0 +1,326 @@
+[module/xwindow]
+type = internal/xwindow
+label = %title:1:60:...%
+label-foreground = ${colors.shade1}
+; format-background = ${colors.black}
+
+[module/bspwm]
+type = internal/bspwm
+pin-workspaces = true
+inline-mode = false
+
+label-focused = %icon%
+label-focused-background = ${colors.shade2}
+label-focused-foreground = ${colors.focused}
+;label-focused-underline= ${colors.primary}
+label-focused-padding = 1
+
+label-occupied = %icon%
+label-occupied-background = ${colors.shade2} 
+label-occupied-foreground = ${colors.occupied}
+;label-occupied-underline = ${colors.primary}
+label-occupied-padding = 1
+
+label-urgent = %icon%
+label-urgent-background = ${colors.red}
+label-urgent-padding = 1
+
+label-empty = %icon%
+label-empty-foreground = ${colors.empty}
+label-empty-background = ${colors.shade2}
+label-empty-padding = 1
+
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-default = 
+
+[module/arch]
+type = custom/text
+format = "  "
+format-foreground = ${colors.black}
+format-background = ${colors.shade3}
+click-left = bash $POLYBAR/scripts/launch-arch
+
+[module/mpd]
+type = internal/mpd
+;format-online =  "<label-song>   <icon-prev>  <icon-stop>  <toggle>  <icon-next>"
+format-online = "<label-song>  <icon-prev>  <toggle>  <icon-next>   <bar-progress>"
+;format-online =  "<label-song>  <bar-progress> <icon-prev>  <icon-stop>  <toggle>  <icon-next>"
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+label-song-maxlen = 40
+label-song-ellipsis = true
+label-format-foreground = ${colors.red}
+bar-progress-width = 10
+bar-progress-indicator = |
+bar-progress-fill = -
+bar-progress-empty = -
+bar-progress-fill-foreground = #ff084a
+bar-progress-fill-background = ${colors.shade2}
+bar-progress-indicator-foreground = ${colors.black}
+bar-progress-indicator-background = ${colors.shade2}
+bar-progress-empty-foreground = ${colors.green}
+bar-progress-empty-background = ${colors.shade2}
+format-online-foreground = ${colors.black}
+format-online-background = ${colors.shade2}
+
+[module/package-updates]
+type = custom/ipc
+hook-0 = $POLYBAR/scripts/updates-pacman/package-updates
+format-background = ${colors.shade3}
+format-foreground = ${colors.black}
+
+[module/package-updates-trigger]
+type = custom/script
+exec = polybar-msg hook package-updates 1 &>/dev/null
+interval = 600
+format-background = ${colors.shade3}
+
+[module/backlight]
+;type = internal/xbacklight
+type = internal/backlight
+
+; Use the following command to list available cards:
+; $ ls -1 /sys/class/backlight/
+;card = intel_backlight
+card = amdgpu_bl0
+
+; Available tags:
+;   <label> (default)
+;   <ramp>
+;   <bar>
+format = <ramp> <label>
+format-background = ${colors.shade3}
+format-foreground = ${colors.bg}
+format-padding = 1
+
+; Available tokens:
+;   %percentage% (default)
+label = %percentage%%
+enable-scroll = true
+
+; Only applies if <ramp> is used
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = <ramp-volume>  <bar-volume>
+label-volume = %percentage%%
+format-volume-background = ${colors.shade2}
+format-volume-foreground = ${colors.black}
+
+label-muted =  婢
+label-muted-foreground = #f00
+
+ramp-volume-0 = 奄
+ramp-volume-1 = 奔
+ramp-volume-2 = 墳
+
+ramp-volume-foreground-0 = #55aa55
+ramp-volume-foreground-1 = #f5a70a
+ramp-volume-foreground-2 = #ff5555
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = -
+bar-volume-fill-font = 2
+bar-volume-empty = -
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.black}
+click-right = pavucontrol
+
+[module/temperature]
+type = internal/temperature
+
+; Seconds to sleep between updates
+; ; Default: 1
+interval = 0.5
+;
+; ; Thermal zone to use
+; ; To list all the zone types, run 
+; ; $ for i in /sys/class/thermal/thermal_zone*; do echo "$i: $(<$i/type)"; done
+; ; Default: 0
+thermal-zone = 0
+;
+; ; Full path of temperature sysfs path
+; ; Use `sensors` to find preferred temperature source, then run
+; ; $ for i in /sys/class/hwmon/hwmon*/temp*_input; do echo "$(<$(dirname
+; $i)/name): $(cat ${i%_*}_label 2>/dev/null || echo $(basename ${i%_*}))
+; $(readlink -f $i)"; done
+; ; to find path to desired file
+; ; Default reverts to thermal zone setting
+hwmon-path = /sys/devices/platform/dell_smm_hwmon/hwmon/hwmon6/temp2_input
+;
+; ; Base temperature for where to start the ramp (in degrees celsius)
+; ; Default: 0
+base-temperature = 35
+;
+; ; Threshold temperature to display warning label (in degrees celsius)
+; ; Default: 80
+warn-temperature = 75
+
+ ; Whether or not to show units next to the temperature tokens (°C, °F)
+ ; ; Default: true
+units = false
+
+; ; Available tags:
+ ; ;   <label> (default)
+ ; ;   <ramp>
+format = <label>
+format-warn = <label-warn>
+
+; ; Available tokens:
+ ; ;   %temperature-c%   (default, temperature in °C)
+ ; ;   %temperature-f%   (temperature in °F)
+
+label =   %temperature-c%
+label-foreground = ${colors.black}
+label-background = ${colors.shade2}
+
+; ; Available tokens:
+ ; ;   %temperature-c%   (default, temperature in °C)
+ ; ;   %temperature-f%   (temperature in °F)
+label-warn =   %temperature-c%
+label-warn-foreground = #a64
+
+[module/cpu2]
+type = internal/cpu
+interval = 0.2
+
+format = <label>
+label =  %percentage%%
+label-background = ${colors.shade2}
+label-foreground = ${colors.black}
+
+[module/wlan]
+type = internal/network
+interface = ${env:DEFAULT_NETWORK_INTERFACE:wlan0}
+interval = 1.0
+accumulate-stats = true
+unknown-as-up = true
+
+format-connected = <label-connected>
+label-connected = "%{A1:$POLYBAR/scripts/rofi-network-manager/rofi-network-manager.sh:}  %downspeed% | %upspeed%%{A}"
+;label-connected-background = ${colors.shade}
+label-connected-foreground = ${colors.black}
+label-connected-background = ${colors.shade4}
+label-connected-padding = 1
+
+format-disconnected = <label-disconnected>
+label-disconnected = "%{A1:$POLYBAR/scripts/rofi-network-manager/rofi-network-manager.sh:}睊 Offline%{A}"
+label-disconnected-background = ${colors.shade4}
+label-disconnected-foreground = ${colors.red}
+label-disconnected-padding = 1
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+full-at = 98
+format-charging =  <label-charging>
+format-charging-background = ${colors.shade4}
+label-charging = %percentage:2%%
+format-charging-padding = 1
+format-charging-foreground = ${colors.shade}
+format-discharging = <ramp-capacity> <label-discharging>
+label-discharging = %percentage%%
+format-discharging-foreground = ${colors.black}
+format-full-prefix = "  "
+ramp-capacity-0 = " "
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
+ramp-capacity-0-foreground = ${colors.red}
+animation-charging-framerate = 910
+format-discharging-padding = 1
+label-discharging-background = ${colors.shade4}
+format-full-background = ${colors.shade4} 
+format-full-foreground = ${colors.black} 
+
+[module/date]
+type = internal/date
+interval = 5
+
+date = %I:%M %p
+date-alt = %a-%d-%b %Y
+
+format-prefix = " "
+format-prefix-foreground =
+format-foreground = ${colors.black}
+format-background = ${colors.shade5}
+label = %date%
+
+[module/date1]
+type = internal/date
+interval = 5
+
+date = %I:%M %p
+date-alt = %a-%d-%b %Y
+
+format-prefix = " "
+format-prefix-foreground =
+format-foreground = ${colors.black}
+format-background = ${colors.shade5}
+label = %date%
+
+[module/sysmenu]
+type = custom/text
+format = "  "
+format-foreground = ${colors.black}
+format-background = ${colors.shade5}
+click-left = bash $POLYBAR/scripts/powermenu
+
+[module/arrow]
+type = custom/script
+exec = echo "  "
+click-left = bash $POLYBAR/scripts/tiny_tray/tinybar.sh
+click-right = bash $POLYBAR/scripts/tiny_tray/killbar.sh
+format-background = ${colors.shade5}
+format-foreground = ${colors.black}
+
+[module/sep]
+type = custom/text
+content = "  "
+content-padding = 0
+content-background = ${colors.bg}
+content-foreground = ${colors.black}
+
+[module/sep1]
+type = custom/text
+content = "  "
+content-padding = 0
+content-background = ${colors.shade2}
+
+[module/sep2]
+type = custom/text
+content = "  "
+content-padding = 0
+content-background = ${colors.shade3}
+
+[module/sep3]
+type = custom/text
+content = "  "
+content-padding = 0
+content-background = ${colors.shade5}

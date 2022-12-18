@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+pkill dunst
+
+# Update custom color file if older than the config file
+
+#dunst & disown 2> /dev/null
+dunst

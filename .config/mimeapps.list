@@ -1,0 +1,17 @@
+[Added Associations]
+text/x-matlab=org.gnome.Meld.desktop;
+application/x-trash=geany.desktop;vim.desktop;
+application/x-shellscript=geany.desktop;
+
+[Default Applications]
+x-scheme-handler/mailspring=Mailspring.desktop
+x-scheme-handler/http=vivaldi-stable.desktop
+x-scheme-handler/https=vivaldi-stable.desktop
+image/png=sxiv.desktop
+image/jpg=sxiv.desktop
+image/jpeg=sxiv.desktop
+/*application/pdf=zathura.desktop*/
+video/mp4=vlc.desktop
+text/html=vivaldi-stable.desktop
+x-scheme-handler/about=vivaldi-stable.desktop
+x-scheme-handler/unknown=vivaldi-stable.desktop

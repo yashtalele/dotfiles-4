@@ -1,0 +1,6 @@
+#!/bin/sh
+
+STYLE="$HOME/.config/hypr/gtklock/style.css"
+CONFIG="$HOME/.config/hypr/gtklock/config.ini"
+
+gtklock -d -s $STYLE -c $CONFIG &

@@ -1,0 +1,67 @@
+extract ()
+{
+  if [ -f $1 ] ; then
+    case $1 in
+      *.tar.bz2)   tar xjf $1   ;;
+      *.tar.gz)    tar xzf $1   ;;
+      *.bz2)       bunzip2 $1   ;;
+      *.rar)       unrar x $1   ;;
+      *.gz)        gunzip $1    ;;
+      *.tar)       tar xf $1    ;;
+      *.tbz2)      tar xjf $1   ;;
+      *.tgz)       tar xzf $1   ;;
+      *.zip)       unzip $1     ;;
+      *.Z)         uncompress $1;;
+      *.7z)        7z x $1      ;;
+      *.deb)       ar x $1      ;;
+      *.tar.xz)    tar xf $1    ;;
+      *.tar.zst)   tar xf $1    ;;
+      *)           echo "'$1' cannot be extracted via ex()" ;;
+    esac
+  else
+    echo "'$1' is not a valid file"
+  fi
+}
+
+
+#sei () { du -a ~/Devel* ~/Documents/* | awk '{print $2}' | fzf --height 40% | xargs -o $EDITOR ; }
+
+
+se() { du -a ~/ --exclude ~/Music \
+	--exclude ~/Downloads/Fonts \
+	--exclude ~/.oh-my-zsh/themes \
+	--exclude ~/.oh-my-zsh/plugins \
+	--exclude ~/.vim/colors \
+	--exclude ~/.config/variety \
+	--exclude ~/.vim/bundle \
+	--exclude ~/.var \
+	--exclude ~/.cache \
+	--exclude ~/.config/conky \
+	--exclude ~/.bin/stay-rolling \
+	--exclude ~/.config/termite \
+	--exclude ~/.config/libreoffice \
+	--exclude ~/.config/nvim \
+	--exclude ~/.config/Mailspring \
+	--exclude ~/.config/coc \
+	--exclude ~/.config/VirtualBox \
+	--exclude ~/.config/google-chrome \
+	--exclude='*.jpg' \
+	--exclude ~/.icons \
+	--exclude ~/.local \
+	--exclude ~/.mozilla \
+	--exclude ~/.npm \
+	--exclude='*.png' \
+	--exclude='*.svg' \
+	|awk '{print $2}' | fzf --height 40% | xargs -r $EDITOR
+;}
+
+if [ -d "$HOME/.bookmarks" ]; then
+  export CDPATH=".:$HOME/.bookmarks:/"
+  alias goto="cd -P"
+  _goto()
+  {
+    local IFS=$'\n'
+    COMPREPLY=( $( compgen -W "$(/bin/ls ~/.bookmarks)" -- ${COMP_WORDS[COMP_CWORD]}))
+  } && # complete -F _goto goto
+fi
+

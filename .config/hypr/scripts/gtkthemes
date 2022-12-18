@@ -1,0 +1,5 @@
+exec-once=gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Cyan-Darkest-Solid"
+exec-once=gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
+exec-once=gsettings set org.gnome.desktop.interface font-name "JetBrainsMono Nerd Font 10"
+exec-once=gsettings set org.gnome.desktop.interface cursor-theme "Paper"
+exec-once=gsettings set org.gnome.desktop.interface cursor-theme-size "16"

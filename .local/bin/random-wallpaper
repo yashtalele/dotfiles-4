@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# simple script to choose random image from
+# Wallpaper directory and set it as desktop background
+
+wall=$(find $HOME/pictures/Wallpapers -type f | sort -R | head -1)
+tran=' --transition-fps 60 --transition-step 5'
+
+swww img -o eDP-1 $wall $tran
+notify-send Wallpaper changed.

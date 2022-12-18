@@ -1,0 +1,30 @@
+{
+    "label" : "lock",
+    "action" : "~/.config/hypr/wlogout/actions --lock",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+{
+    "label" : "reboot",
+    "action" : "~/.config/hypr/wlogout/actions --reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
+}
+{
+    "label" : "shutdown",
+    "action" : "~/.config/hypr/wlogout/actions --shutdown", 
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+{
+    "label" : "logout",
+    "action" : "~/.config/hypr/wlogout/actions --logout",
+    "text" : "Logout",
+    "keybind" : "e"
+}
+{
+    "label" : "suspend",
+    "action" :  "~/.config/hypr/wlogout/actions --suspend",
+    "text" : "Suspend",
+    "keybind" : "u"
+}

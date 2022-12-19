@@ -14,5 +14,6 @@ This setup instructions only provided for Arch Linux (and other Arch-based distr
 <b>1. We need to deploy yay and git</b>
 
 ```sh
-pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git /tmp/yay && cd yay && makepkg -si
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git /tmp/yay && \
+cd yay && makepkg -si
 ```

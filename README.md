@@ -9,7 +9,7 @@
 <br></br>
 ## 📦 setup
 ### 💾 Installation:
-This setup instructions only provided for Arch Linux (and other Arch-based distributions) 
+This setup instructions only provided for Arch Linux (and other Arch-based distributions)\ 
 <b>1. We need to deploy yay and git</b>
 
 ```sh

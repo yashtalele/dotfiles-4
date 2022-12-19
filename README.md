@@ -6,3 +6,12 @@
 ![Hyprland](screenshot/hyprland.png "hyprland")
 <br></br>
 ![Hyprland-1](screenshot/hyprland1.png "hyprland")
+<br></br>
+## 📦 setup
+### 💾 Installation:
+This setup instructions only provided for Arch Linux (and other Arch-based distributions) 
+<b>1. We need to deploy yay and git</b>
+
+```sh
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git /tmp/yay && cd yay && makepkg -si
+```

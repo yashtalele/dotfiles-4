@@ -11,9 +11,15 @@
 ### 💾 Installation:
 This setup instructions only provided for Arch Linux (and other Arch-based distributions) 
 <br></br>
-<b>1. We need to deploy yay and git</b>
+<b>1. We need to deploy yay and git:</b>
 
 ```sh
 pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git /tmp/yay && \
 cd yay && makepkg -si
+```
+
+<b>2. Install Window Manager Waybar and Hyprland Wayland:</b>
+
+```sh
+yay -S hyprland-git waybar-hyprland-git 
 ```

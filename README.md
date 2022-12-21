@@ -14,12 +14,22 @@ This setup instructions only provided for Arch Linux (and other Arch-based distr
 <b>1. We need to deploy yay and git:</b>
 
 ```sh
-pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git /tmp/yay && \
-cd yay && makepkg -si
+pacman -S --needed git base-devel && \
+git clone https://aur.archlinux.org/yay.git /tmp/yay \
+&& cd /tmp/yay && makepkg -si
 ```
 
-<b>2. Install Window Manager Waybar and Hyprland Wayland:</b>
+<b>2. Install Window Manager Hyprland Wayland and Waybar:</b>
 
 ```sh
-yay -S hyprland-git waybar-hyprland-git 
+yay -S hyprland-git waybar-hyprland-git xdg-desktop-portal-hyprland-git 
+```
+
+<b>3. Install necessary packages</b>
+
+```sh
+yay -S foot kitty swww swayidle gtklock mako wl-clipboard grim \
+slurp mpd mpv mpc xfce-polkit wofi wlogout imagemagick \
+ranger wf-recorder xorg-xwayland wdisplays nwg-look-bin \
+
 ```

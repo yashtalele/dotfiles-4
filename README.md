@@ -31,5 +31,6 @@ yay -S hyprland-git waybar-hyprland-git xdg-desktop-portal-hyprland-git
 yay -S foot kitty swww swayidle gtklock mako wl-clipboard grim \
 slurp mpd mpv mpc xfce-polkit wofi wlogout imagemagick \
 ranger wf-recorder xorg-xwayland wdisplays nwg-look-bin \
-neovim rofi-calc light xorg-xbacklight sxiv azote 
+neovim rofi-calc light xorg-xbacklight sxiv azote yad \
+pulsemixer 
 ```

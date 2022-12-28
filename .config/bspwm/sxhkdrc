@@ -1,0 +1,206 @@
+#!/bin/bash
+#
+# wm independent hotkeys
+#
+
+# terminal emulator
+super + Return
+	WINIT_X11_SCALE_FACTOR=1.0 alacritty
+
+# make sxhkd reload its configuration files:
+super + control + Escape
+	pkill -USR1 -x sxhkd
+
+#
+# bspwm hotkeys
+#
+
+# Show window list
+super + F1
+    rofi -show window
+
+# quit/restart bspwm
+super + control + r
+	bspc wm -r
+
+
+# close and kill
+super + {_,shift + }q
+	bspc node -c
+#	bspc node -{c,k}
+
+
+# alternate between the tiled and monocle layout
+super + m
+	bspc desktop -l next
+
+# send the newest marked node to the newest preselected node
+super + y
+	bspc node newest.marked.local -n newest.!automatic.local
+
+# swap the current node and the biggest window
+super + g
+	bspc node -s biggest.window
+
+#
+# state/flags
+#
+
+# set the window state
+super + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,\~fullscreen}
+
+# Pseudo Tiled & tiled mode
+super + shift + space
+  bspc node -t {pseudo_tiled,tiled}
+
+# Toggle beetwen floating & tiled
+super + space
+    bspc node -t "~"{floating,tiled}
+
+# set the node flags
+super + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
+
+#
+# focus/swap
+#
+
+# focus the node in the given direction
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+# focus the node for the given path jump
+super + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+
+# focus the next/previous window in the current desktop
+super + {_,shift + }n
+	bspc node -f {next,prev}.local.!hidden.window
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+# focus the last node/desktop
+super + {grave,Tab}
+	bspc {node,desktop} -f last
+
+# focus the next/previous local node
+ctrl + alt + {_,shift + }Tab
+     bspc node -f {next,prev}.local
+ 
+# Focus the next monitor
+alt + Tab
+     bspc monitor -f next
+
+# focus the older or newer node in the focus history
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+#
+# preselect
+#
+
+# preselect the direction
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+# move/resize
+
+alt + h
+  /bin/sh $HOME/.config/bspwm/resize/shrinkx.sh
+
+alt + l
+  /bin/sh $HOME/.config/bspwm/resize/expandx.sh
+
+alt + k
+  /bin/sh $HOME/.config/bspwm/resize/shrinky.sh
+
+alt + j
+  /bin/sh $HOME/.config/bspwm/resize/expandy.sh
+
+# move a floating window
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+
+# custom ''
+super + {_,shift + }w
+	vivaldi-stable
+
+super + shift + {f, e, d}
+	{kitty -e lfub, alacritty -e nvim, menu}
+
+
+control + alt + l
+	betterlockscreen --dim 5 --blur 0.3 -l
+
+control + alt + Delete
+	prompt "Are you sure you would like to logout of this session"	"bspc quit"
+	mpc {prev, toggle, next, stop}
+
+{XF86AudioRaiseVolume, XF86AudioLowerVolume, XF86AudioMute}
+	{$XDG_DATA_HOME/bin/changevolume up, $XDG_DATA_HOME/bin/changevolume down, $XDG_DATA_HOME/bin/changevolume  mute}
+
+XF86MonBrightnessUp
+	$XDG_DATA_HOME/bin/changebrightness up
+
+XF86MonBrightnessDown
+	$XDG_DATA_HOME/bin/changebrightness down
+
+XF86Calculator
+	rofi-calc
+	#galculator
+
+ctrl + Print
+	flameshot screen -n 1 -p ~/pictures/Screenshots
+
+Print
+	flameshot gui
+
+control + shift + i
+    sxiv ~/pictures/Screenshots/
+
+control + shift + h
+	WINIT_X11_SCALE_FACTOR=1.0 alacritty -e htop
+
+super + {_,shift + }x
+	~/.local/bin/powermenu
+
+super + {KP_Up,KP_Begin,KP_Down}
+	{bsp-layout set tall, bsp-layout set rgrid, bsp-layout set grid}
+
+super + shift u
+  	winhide
+
+super + shift + Return
+  	tdrop -am -w 1916 kitty
+
+super + shift + i
+    	sxiv -t ~/pictures/Wallpapers
+
+super + control + b
+  	polybar-msg cmd restart
+
+# super + shift + r ; c ; b
+    # sxiv -t ~/pictures/Wallpapers
+    #

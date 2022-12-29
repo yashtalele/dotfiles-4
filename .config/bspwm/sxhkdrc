@@ -159,13 +159,13 @@ control + alt + Delete
 	mpc {prev, toggle, next, stop}
 
 {XF86AudioRaiseVolume, XF86AudioLowerVolume, XF86AudioMute}
-	{$XDG_DATA_HOME/bin/changevolume up, $XDG_DATA_HOME/bin/changevolume down, $XDG_DATA_HOME/bin/changevolume  mute}
+	{changevolume up, changevolume down, changevolume  mute}
 
 XF86MonBrightnessUp
-	$XDG_DATA_HOME/bin/changebrightness up
+	changebrightness up
 
 XF86MonBrightnessDown
-	$XDG_DATA_HOME/bin/changebrightness down
+	changebrightness down
 
 XF86Calculator
 	rofi-calc

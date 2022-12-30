@@ -3,13 +3,12 @@ while read file
 do
     case "$1" in
     "W")
-            swaybg -o DP-2 -i "$file" &
-            swaybg -o DP-3 -i "$file" &
+            xwallpaper --output DisplayPort-1 --zoom "$file" --output DisplayPort-2 --zoom "$file" &
             cp -rf "$file" "$HOME/.config/sxiv/external.png" &&
             notify-send -i "$HOME/.config/sxiv/notifi.png" "Wallpaper changed." ;;
 
     "w")
-            swaybg -o eDP-1 -m file -i "$file" &
+            xwallpaper --output eDP --zoom "$file" &
             cp -rf "$file" "$HOME/.config/sxiv/main.png" &&
             notify-send -i "$HOME/.config/sxiv/notifi.png" "Wallpaper changed." ;;
 

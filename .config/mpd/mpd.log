@@ -1,0 +1,450 @@
+Aug 20 13:49 : player: played "Papa Roach - Crooked Teeth.mp3"
+Aug 20 13:49 : exception: Failed to open "pulseaudio" (pulse); failed to connect: Connection refused
+Aug 20 13:53 : player: played "Alan Walker ‒ Lost Control.mp3"
+Aug 20 13:53 : exception: Failed to open "pulseaudio" (pulse); failed to connect: Connection refused
+Aug 20 13:56 : player: played "ALAN WALKER – Faded.mp3"
+Aug 20 13:58 : player: played "ALAN WALKER – Faded.mp3"
+Aug 20 14:05 : output: Failed to play on "pulse audio" (pulse): suspended
+Aug 20 14:07 : player: played "ALAN WALKER – Faded.mp3"
+Aug 20 14:10 : player: played "Alan Walker, lily.mp3"
+Aug 20 14:14 : player: played "Alan Walker ‒ Lost Control.mp3"
+Aug 20 15:29 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Aug 20 20:56 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Aug 20 23:55 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Aug 21 03:01 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Aug 21 17:46 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Aug 21 20:09 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Aug 21 20:09 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Aug 21 22:38 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Aug 22 01:13 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Aug 22 01:20 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Aug 22 02:59 : player: played "Alan Walker On My Way.mp3"
+Aug 22 03:06 : player: played "Alan Walker On My Way.mp3"
+Aug 22 12:44 : player: played "Alan Walker On My Way.mp3"
+Aug 22 22:11 : player: played "Alan Walker On My Way.mp3"
+Aug 23 03:13 : player: played "Alan Walker On My Way.mp3"
+Aug 23 17:01 : player: played "Alan Walker On My Way.mp3"
+Aug 24 03:28 : player: played "Alan Walker On My Way.mp3"
+Aug 25 03:03 : player: played "Alan Walker On My Way.mp3"
+Aug 25 10:32 : player: played "Alan Walker On My Way.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Aug 25 13:24 : player: played "Alan Walker On My Way.mp3"
+Aug 26 13:09 : player: played "Alan Walker On My Way.mp3"
+Aug 26 15:14 : player: played "Alan Walker On My Way.mp3"
+Aug 26 21:25 : player: played "Alan Walker On My Way.mp3"
+Aug 27 02:31 : player: played "Alan Walker On My Way.mp3"
+Aug 27 16:53 : player: played "Alan Walker On My Way.mp3"
+Aug 27 22:28 : player: played "Alan Walker On My Way.mp3"
+Aug 28 02:45 : player: played "Alan Walker On My Way.mp3"
+Aug 28 22:38 : player: played "Alan Walker On My Way.mp3"
+Aug 29 21:34 : player: played "Alan Walker On My Way.mp3"
+Aug 30 02:32 : player: played "Alan Walker On My Way.mp3"
+Aug 30 21:15 : player: played "Alan Walker On My Way.mp3"
+Aug 31 03:13 : player: played "Alan Walker On My Way.mp3"
+Sep 01 02:27 : player: played "Alan Walker On My Way.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Sep 01 12:54 : player: played "Alan Walker On My Way.mp3"
+Sep 01 14:52 : player: played "Alan Walker On My Way.mp3"
+Sep 01 21:09 : player: played "Alan Walker On My Way.mp3"
+Sep 02 21:49 : player: played "Alan Walker On My Way.mp3"
+Sep 03 17:49 : player: played "Disturbed - Down With The Sickness (Explicit).mp3"
+Sep 03 21:09 : player: played "Disturbed  - The Sound Of Silence.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Nov 26 20:14 : exception: Failed to decode /home/darkrift/music/Disturbed  - The Sound Of Silence.mp3; Failed to open '/home/darkrift/music/Disturbed  - The Sound Of Silence.mp3': No such file or directory
+Nov 26 20:14 : player: played "Disturbed  - The Sound Of Silence.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Disturbed  - The Sound Of Silence.mp3; Failed to open '/home/darkrift/music/Disturbed  - The Sound Of Silence.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Emily Browning - Sweet Dreams.mp3; Failed to open '/home/darkrift/music/Emily Browning - Sweet Dreams.mp3': No such file or directory
+Nov 27 13:17 : player: played "Disturbed  - The Sound Of Silence.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Emily Browning - Sweet Dreams.mp3; Failed to open '/home/darkrift/music/Emily Browning - Sweet Dreams.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Evanescence - Going Under.mp3; Failed to open '/home/darkrift/music/Evanescence - Going Under.mp3': No such file or directory
+Nov 27 13:17 : player: played "Emily Browning - Sweet Dreams.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Evanescence - Going Under.mp3; Failed to open '/home/darkrift/music/Evanescence - Going Under.mp3': No such file or directory
+Nov 27 13:17 : player: played "Evanescence - Going Under.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Fergie - Big Girls Don't Cry (Personal).mp3; Failed to open '/home/darkrift/music/Fergie - Big Girls Don't Cry (Personal).mp3': No such file or directory
+Nov 27 13:17 : player: played "Fergie - Big Girls Don't Cry (Personal).mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Fireflight - Unbreakable.mp3; Failed to open '/home/darkrift/music/Fireflight - Unbreakable.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Five Finger Death Punch - Remember Everything.mp3; Failed to open '/home/darkrift/music/Five Finger Death Punch - Remember Everything.mp3': No such file or directory
+Nov 27 13:17 : player: played "Fireflight - Unbreakable.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Five Finger Death Punch - Remember Everything.mp3; Failed to open '/home/darkrift/music/Five Finger Death Punch - Remember Everything.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Five Finger Death Punch - Wrong Side Of Heaven.mp3; Failed to open '/home/darkrift/music/Five Finger Death Punch - Wrong Side Of Heaven.mp3': No such file or directory
+Nov 27 13:17 : player: played "Five Finger Death Punch - Remember Everything.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Five Finger Death Punch - Wrong Side Of Heaven.mp3; Failed to open '/home/darkrift/music/Five Finger Death Punch - Wrong Side Of Heaven.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Flyleaf - All Around Me.mp3; Failed to open '/home/darkrift/music/Flyleaf - All Around Me.mp3': No such file or directory
+Nov 27 13:17 : player: played "Five Finger Death Punch - Wrong Side Of Heaven.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Flyleaf - All Around Me.mp3; Failed to open '/home/darkrift/music/Flyleaf - All Around Me.mp3': No such file or directory
+Nov 27 13:17 : player: played "Flyleaf - All Around Me.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Godsmack - Voodoo.mp3; Failed to open '/home/darkrift/music/Godsmack - Voodoo.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Hinder - Lips Of An Angel.mp3; Failed to open '/home/darkrift/music/Hinder - Lips Of An Angel.mp3': No such file or directory
+Nov 27 13:17 : player: played "Godsmack - Voodoo.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Hinder - Lips Of An Angel.mp3; Failed to open '/home/darkrift/music/Hinder - Lips Of An Angel.mp3': No such file or directory
+Nov 27 13:17 : player: played "Hinder - Lips Of An Angel.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Icon For Hire - Get Well.mp3; Failed to open '/home/darkrift/music/Icon For Hire - Get Well.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Icon For Hire - Make A Move.mp3; Failed to open '/home/darkrift/music/Icon For Hire - Make A Move.mp3': No such file or directory
+Nov 27 13:17 : player: played "Icon For Hire - Get Well.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Icon For Hire - Make A Move.mp3; Failed to open '/home/darkrift/music/Icon For Hire - Make A Move.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Icon For Hire - Off With Her Head.mp3; Failed to open '/home/darkrift/music/Icon For Hire - Off With Her Head.mp3': No such file or directory
+Nov 27 13:17 : player: played "Icon For Hire - Make A Move.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Icon For Hire - Off With Her Head.mp3; Failed to open '/home/darkrift/music/Icon For Hire - Off With Her Head.mp3': No such file or directory
+Nov 27 13:17 : player: played "Icon For Hire - Off With Her Head.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/In Flames - Here Until Forever.mp3; Failed to open '/home/darkrift/music/In Flames - Here Until Forever.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/June Divided - 'Bullet' June Divided.mp3; Failed to open '/home/darkrift/music/June Divided - 'Bullet' June Divided.mp3': No such file or directory
+Nov 27 13:17 : player: played "In Flames - Here Until Forever.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/June Divided - 'Bullet' June Divided.mp3; Failed to open '/home/darkrift/music/June Divided - 'Bullet' June Divided.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Kalandra -  Borders (Official Music Video).mp3; Failed to open '/home/darkrift/music/Kalandra -  Borders (Official Music Video).mp3': No such file or directory
+Nov 27 13:17 : player: played "June Divided - 'Bullet' June Divided.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Kalandra -  Borders (Official Music Video).mp3; Failed to open '/home/darkrift/music/Kalandra -  Borders (Official Music Video).mp3': No such file or directory
+Nov 27 13:17 : player: played "Kalandra -  Borders (Official Music Video).mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Kalandra - Slow Motion (Official Music Video).mp3; Failed to open '/home/darkrift/music/Kalandra - Slow Motion (Official Music Video).mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Kalandra - The Waiting Game.mp3; Failed to open '/home/darkrift/music/Kalandra - The Waiting Game.mp3': No such file or directory
+Nov 27 13:17 : player: played "Kalandra - Slow Motion (Official Music Video).mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Kalandra - The Waiting Game.mp3; Failed to open '/home/darkrift/music/Kalandra - The Waiting Game.mp3': No such file or directory
+Nov 27 13:17 : player: played "Kalandra - The Waiting Game.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Kelly Clarkson - Because Of You.mp3; Failed to open '/home/darkrift/music/Kelly Clarkson - Because Of You.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Lady Antebellum - Need You Now.mp3; Failed to open '/home/darkrift/music/Lady Antebellum - Need You Now.mp3': No such file or directory
+Nov 27 13:17 : player: played "Kelly Clarkson - Because Of You.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Lady Antebellum - Need You Now.mp3; Failed to open '/home/darkrift/music/Lady Antebellum - Need You Now.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Mastodon - Show Yourself.mp3; Failed to open '/home/darkrift/music/Mastodon - Show Yourself.mp3': No such file or directory
+Nov 27 13:17 : player: played "Lady Antebellum - Need You Now.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Mastodon - Show Yourself.mp3; Failed to open '/home/darkrift/music/Mastodon - Show Yourself.mp3': No such file or directory
+Nov 27 13:17 : player: played "Mastodon - Show Yourself.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/N3WPORT - Power (feat. braev) [NCS Release].mp3; Failed to open '/home/darkrift/music/N3WPORT - Power (feat. braev) [NCS Release].mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/NEFFEX - Grateful [Copyright Free].mp3; Failed to open '/home/darkrift/music/NEFFEX - Grateful [Copyright Free].mp3': No such file or directory
+Nov 27 13:17 : player: played "N3WPORT - Power (feat. braev) [NCS Release].mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/NEFFEX - Grateful [Copyright Free].mp3; Failed to open '/home/darkrift/music/NEFFEX - Grateful [Copyright Free].mp3': No such file or directory
+Nov 27 13:17 : player: played "NEFFEX - Grateful [Copyright Free].mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Nelly Furtado - Say It Right.mp3; Failed to open '/home/darkrift/music/Nelly Furtado - Say It Right.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Of Mice & Men - Unbreakable.mp3; Failed to open '/home/darkrift/music/Of Mice & Men - Unbreakable.mp3': No such file or directory
+Nov 27 13:17 : player: played "Nelly Furtado - Say It Right.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Of Mice & Men - Unbreakable.mp3; Failed to open '/home/darkrift/music/Of Mice & Men - Unbreakable.mp3': No such file or directory
+Nov 27 13:17 : player: played "Of Mice & Men - Unbreakable.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Papa Roach - Crooked Teeth.mp3; Failed to open '/home/darkrift/music/Papa Roach - Crooked Teeth.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/PVRIS - My House.mp3; Failed to open '/home/darkrift/music/PVRIS - My House.mp3': No such file or directory
+Nov 27 13:17 : player: played "Papa Roach - Crooked Teeth.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/PVRIS - My House.mp3; Failed to open '/home/darkrift/music/PVRIS - My House.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Rise Against - Swing Life Away.mp3; Failed to open '/home/darkrift/music/Rise Against - Swing Life Away.mp3': No such file or directory
+Nov 27 13:17 : player: played "PVRIS - My House.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Rise Against - Swing Life Away.mp3; Failed to open '/home/darkrift/music/Rise Against - Swing Life Away.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Taylor Swift - …Ready For It.mp3; Failed to open '/home/darkrift/music/Taylor Swift - …Ready For It.mp3': No such file or directory
+Nov 27 13:17 : player: played "Rise Against - Swing Life Away.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Taylor Swift - …Ready For It.mp3; Failed to open '/home/darkrift/music/Taylor Swift - …Ready For It.mp3': No such file or directory
+Nov 27 13:17 : player: played "Taylor Swift - …Ready For It.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Don’t Blame Me.mp3; Failed to open '/home/darkrift/music/Don’t Blame Me.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Taylor Swift - Look What You Made Me Do.mp3; Failed to open '/home/darkrift/music/Taylor Swift - Look What You Made Me Do.mp3': No such file or directory
+Nov 27 13:17 : player: played "Don’t Blame Me.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Taylor Swift - Look What You Made Me Do.mp3; Failed to open '/home/darkrift/music/Taylor Swift - Look What You Made Me Do.mp3': No such file or directory
+Nov 27 13:17 : player: played "Taylor Swift - Look What You Made Me Do.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/The Dirty Youth - 'Fight'.mp3; Failed to open '/home/darkrift/music/The Dirty Youth - 'Fight'.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/The Pretty Reckless - Just Tonight.mp3; Failed to open '/home/darkrift/music/The Pretty Reckless - Just Tonight.mp3': No such file or directory
+Nov 27 13:17 : player: played "The Dirty Youth - 'Fight'.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/The Pretty Reckless - Just Tonight.mp3; Failed to open '/home/darkrift/music/The Pretty Reckless - Just Tonight.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/The Pretty Reckless - Heaven Knows.mp3; Failed to open '/home/darkrift/music/The Pretty Reckless - Heaven Knows.mp3': No such file or directory
+Nov 27 13:17 : player: played "The Pretty Reckless - Just Tonight.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/The Pretty Reckless - Heaven Knows.mp3; Failed to open '/home/darkrift/music/The Pretty Reckless - Heaven Knows.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/The Script - The Man Who Can’t Be Moved.mp3; Failed to open '/home/darkrift/music/The Script - The Man Who Can’t Be Moved.mp3': No such file or directory
+Nov 27 13:17 : player: played "The Pretty Reckless - Heaven Knows.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/The Script - The Man Who Can’t Be Moved.mp3; Failed to open '/home/darkrift/music/The Script - The Man Who Can’t Be Moved.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Tiffany Sinko - Breathe Again.mp3; Failed to open '/home/darkrift/music/Tiffany Sinko - Breathe Again.mp3': No such file or directory
+Nov 27 13:17 : player: played "The Script - The Man Who Can’t Be Moved.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Tiffany Sinko - Breathe Again.mp3; Failed to open '/home/darkrift/music/Tiffany Sinko - Breathe Again.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Timbaland - Apologize ft. OneRepublic.mp3; Failed to open '/home/darkrift/music/Timbaland - Apologize ft. OneRepublic.mp3': No such file or directory
+Nov 27 13:17 : player: played "Tiffany Sinko - Breathe Again.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Timbaland - Apologize ft. OneRepublic.mp3; Failed to open '/home/darkrift/music/Timbaland - Apologize ft. OneRepublic.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/VersaEmerge - Fixed At Zero.mp3; Failed to open '/home/darkrift/music/VersaEmerge - Fixed At Zero.mp3': No such file or directory
+Nov 27 13:17 : player: played "Timbaland - Apologize ft. OneRepublic.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/VersaEmerge - Fixed At Zero.mp3; Failed to open '/home/darkrift/music/VersaEmerge - Fixed At Zero.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Disturbed - Down With The Sickness (Violet Orlandi ft Ai Mori COVER).mp3; Failed to open '/home/darkrift/music/Disturbed - Down With The Sickness (Violet Orlandi ft Ai Mori COVER).mp3': No such file or directory
+Nov 27 13:17 : player: played "VersaEmerge - Fixed At Zero.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Disturbed - Down With The Sickness (Violet Orlandi ft Ai Mori COVER).mp3; Failed to open '/home/darkrift/music/Disturbed - Down With The Sickness (Violet Orlandi ft Ai Mori COVER).mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Wardruna - Lyfjaberg (Healing-mountain).mp3; Failed to open '/home/darkrift/music/Wardruna - Lyfjaberg (Healing-mountain).mp3': No such file or directory
+Nov 27 13:17 : player: played "Disturbed - Down With The Sickness (Violet Orlandi ft Ai Mori COVER).mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Wardruna - Lyfjaberg (Healing-mountain).mp3; Failed to open '/home/darkrift/music/Wardruna - Lyfjaberg (Healing-mountain).mp3': No such file or directory
+Nov 27 13:17 : player: played "Wardruna - Lyfjaberg (Healing-mountain).mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/We Are The Fallen - Bury Me Alive.mp3; Failed to open '/home/darkrift/music/We Are The Fallen - Bury Me Alive.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/We Are The In Crowd - The Best Thing (That Never Happened).mp3; Failed to open '/home/darkrift/music/We Are The In Crowd - The Best Thing (That Never Happened).mp3': No such file or directory
+Nov 27 13:17 : player: played "We Are The Fallen - Bury Me Alive.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/We Are The In Crowd - The Best Thing (That Never Happened).mp3; Failed to open '/home/darkrift/music/We Are The In Crowd - The Best Thing (That Never Happened).mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/While She Sleeps  ft. Oli Sykes- Silence Speaks.mp3; Failed to open '/home/darkrift/music/While She Sleeps  ft. Oli Sykes- Silence Speaks.mp3': No such file or directory
+Nov 27 13:17 : player: played "We Are The In Crowd - The Best Thing (That Never Happened).mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/While She Sleeps  ft. Oli Sykes- Silence Speaks.mp3; Failed to open '/home/darkrift/music/While She Sleeps  ft. Oli Sykes- Silence Speaks.mp3': No such file or directory
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Wolfmother - Woman.mp3; Failed to open '/home/darkrift/music/Wolfmother - Woman.mp3': No such file or directory
+Nov 27 13:17 : player: played "While She Sleeps  ft. Oli Sykes- Silence Speaks.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Wolfmother - Woman.mp3; Failed to open '/home/darkrift/music/Wolfmother - Woman.mp3': No such file or directory
+Nov 27 13:17 : player: played "Wolfmother - Woman.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Wolfmother - Woman.mp3; Failed to open '/home/darkrift/music/Wolfmother - Woman.mp3': No such file or directory
+Nov 27 13:17 : player: played "Wolfmother - Woman.mp3"
+Nov 27 13:17 : exception: Failed to decode /home/darkrift/music/Wolfmother - Woman.mp3; Failed to open '/home/darkrift/music/Wolfmother - Woman.mp3': No such file or directory
+Nov 27 13:17 : player: played "Wolfmother - Woman.mp3"
+Nov 28 16:08 : update: updating /ALAN WALKER – Faded.mp3
+Nov 28 16:08 : update: updating /Alan Walker, lily.mp3
+Nov 28 16:08 : update: updating /Alan Walker ‒ Lost Control.mp3
+Nov 28 16:08 : update: updating /Alan Walker On My Way.mp3
+Nov 28 16:08 : update: updating /All That Remains - Madness.mp3
+Nov 28 16:08 : update: updating /Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3
+Nov 28 16:08 : update: updating /Cold War Kids - Love Is Mystical (Live From Jimmy Kimmel Live!).mp3
+Nov 28 16:08 : update: updating /Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3
+Nov 28 16:08 : update: updating /Disturbed - Down With The Sickness (Explicit).mp3
+Nov 28 16:08 : update: updating /Disturbed - Down With The Sickness (Violet Orlandi ft Ai Mori COVER).mp3
+Nov 28 16:08 : update: updating /Disturbed  - The Sound Of Silence.mp3
+Nov 28 16:08 : update: updating /Don’t Blame Me.mp3
+Nov 28 16:08 : update: updating /Emily Browning - Sweet Dreams.mp3
+Nov 28 16:08 : update: updating /Evanescence - Going Under.mp3
+Nov 28 16:08 : update: updating /Fergie - Big Girls Don't Cry (Personal).mp3
+Nov 28 16:08 : update: updating /Fireflight - Unbreakable.mp3
+Nov 28 16:08 : update: updating /Five Finger Death Punch - Remember Everything.mp3
+Nov 28 16:08 : update: updating /Five Finger Death Punch - Wrong Side Of Heaven.mp3
+Nov 28 16:08 : update: updating /Flyleaf - All Around Me.mp3
+Nov 28 16:08 : update: updating /Godsmack - Voodoo.mp3
+Nov 28 16:08 : update: updating /Hinder - Lips Of An Angel.mp3
+Nov 28 16:08 : update: updating /Hoobastank - The Reason.mp3
+Nov 28 16:08 : update: updating /Icon For Hire - Get Well.mp3
+Nov 28 16:08 : update: updating /Icon For Hire - Make A Move.mp3
+Nov 28 16:08 : update: updating /Icon For Hire - Off With Her Head.mp3
+Nov 28 16:08 : update: updating /In Flames - Here Until Forever.mp3
+Nov 28 16:08 : update: updating /Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3
+Nov 28 16:08 : update: updating /June Divided - 'Bullet' June Divided.mp3
+Nov 28 16:08 : update: updating /Kalandra -  Borders (Official Music Video).mp3
+Nov 28 16:08 : update: updating /Kalandra - Slow Motion (Official Music Video).mp3
+Nov 28 16:08 : update: updating /Kalandra - The Waiting Game.mp3
+Nov 28 16:08 : update: updating /Kelly Clarkson - Because Of You.mp3
+Nov 28 16:08 : update: updating /Lady Antebellum - Need You Now.mp3
+Nov 28 16:08 : update: updating /Mastodon - Show Yourself.mp3
+Nov 28 16:08 : update: updating /N3WPORT - Power (feat. braev) [NCS Release].mp3
+Nov 28 16:08 : update: updating /NEFFEX - Grateful [Copyright Free].mp3
+Nov 28 16:08 : update: updating /Nelly Furtado - Say It Right.mp3
+Nov 28 16:08 : update: updating /Of Mice & Men - Unbreakable.mp3
+Nov 28 16:08 : update: updating /Papa Roach - Crooked Teeth.mp3
+Nov 28 16:08 : update: updating /PVRIS - My House.mp3
+Nov 28 16:08 : update: updating /Rise Against - Swing Life Away.mp3
+Nov 28 16:08 : update: updating /Taylor Swift - Look What You Made Me Do.mp3
+Nov 28 16:08 : update: updating /Taylor Swift - …Ready For It.mp3
+Nov 28 16:08 : update: updating /The Dirty Youth - 'Fight'.mp3
+Nov 28 16:08 : update: updating /The Pretty Reckless - Heaven Knows.mp3
+Nov 28 16:08 : update: updating /The Pretty Reckless - Just Tonight.mp3
+Nov 28 16:08 : update: updating /The Script - The Man Who Can’t Be Moved.mp3
+Nov 28 16:08 : update: updating /Tiffany Sinko - Breathe Again.mp3
+Nov 28 16:08 : update: updating /Timbaland - Apologize ft. OneRepublic.mp3
+Nov 28 16:08 : update: updating /VersaEmerge - Fixed At Zero.mp3
+Nov 28 16:08 : update: updating /Wardruna - Lyfjaberg (Healing-mountain).mp3
+Nov 28 16:08 : update: updating /We Are The Fallen - Bury Me Alive.mp3
+Nov 28 16:08 : update: updating /We Are The In Crowd - The Best Thing (That Never Happened).mp3
+Nov 28 16:08 : update: updating /While She Sleeps  ft. Oli Sykes- Silence Speaks.mp3
+Nov 28 16:08 : update: updating /White Fire Alarm - City of the Weak.mp3
+Nov 28 16:08 : update: updating /Wolfmother - Woman.mp3
+Nov 28 17:42 : player: played "Hoobastank - The Reason.mp3"
+Nov 28 18:05 : player: played "Hoobastank - The Reason.mp3"
+Nov 28 18:10 : player: played "Hoobastank - The Reason.mp3"
+Nov 28 21:44 : player: played "Hoobastank - The Reason.mp3"
+Nov 28 21:59 : player: played "Hoobastank - The Reason.mp3"
+Nov 29 01:59 : player: played "Hoobastank - The Reason.mp3"
+Nov 29 02:02 : player: played "Hoobastank - The Reason.mp3"
+Nov 29 10:26 : player: played "Hoobastank - The Reason.mp3"
+Nov 29 11:30 : player: played "Hoobastank - The Reason.mp3"
+Nov 29 20:01 : player: played "Hoobastank - The Reason.mp3"
+Nov 30 13:59 : player: played "Hoobastank - The Reason.mp3"
+Nov 30 14:35 : player: played "Hoobastank - The Reason.mp3"
+Nov 30 15:11 : player: played "Hoobastank - The Reason.mp3"
+Nov 30 16:11 : player: played "Hoobastank - The Reason.mp3"
+Nov 30 18:33 : player: played "Hoobastank - The Reason.mp3"
+Nov 30 19:10 : player: played "Hoobastank - The Reason.mp3"
+Nov 30 19:57 : player: played "Hoobastank - The Reason.mp3"
+Dec 01 02:14 : player: played "Hoobastank - The Reason.mp3"
+Dec 01 14:43 : player: played "Hoobastank - The Reason.mp3"
+Dec 01 17:58 : player: played "Hoobastank - The Reason.mp3"
+Dec 01 20:34 : player: played "Hoobastank - The Reason.mp3"
+Dec 01 21:24 : player: played "Hoobastank - The Reason.mp3"
+Dec 02 02:17 : player: played "Hoobastank - The Reason.mp3"
+Dec 02 03:12 : player: played "Hoobastank - The Reason.mp3"
+Dec 02 09:46 : player: played "Hoobastank - The Reason.mp3"
+Dec 02 12:24 : player: played "Hoobastank - The Reason.mp3"
+Dec 02 14:56 : player: played "Hoobastank - The Reason.mp3"
+Dec 02 21:20 : player: played "Hoobastank - The Reason.mp3"
+Dec 03 12:27 : player: played "Alan Walker ‒ Lost Control.mp3"
+Dec 03 12:34 : player: played "ALAN WALKER – Faded.mp3"
+Dec 03 12:38 : player: played "Alan Walker, lily.mp3"
+Dec 03 12:41 : player: played "Alan Walker ‒ Lost Control.mp3"
+Dec 03 12:45 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 03 12:48 : player: played "Alan Walker On My Way.mp3"
+Dec 03 12:52 : player: played "All That Remains - Madness.mp3"
+Dec 03 12:55 : player: played "White Fire Alarm - City of the Weak.mp3"
+Dec 03 12:59 : player: played "Cold War Kids - Love Is Mystical (Live From Jimmy Kimmel Live!).mp3"
+Dec 03 13:03 : player: played "Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3"
+Dec 03 13:09 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 03 13:41 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 03 15:27 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 03 15:50 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 03 21:09 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 04 21:00 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 05 07:14 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 05 08:09 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 05 19:29 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 05 21:29 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 06 13:29 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 06 15:22 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 06 19:30 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 06 19:46 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 07 02:27 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 07 02:43 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 07 20:22 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 07 20:53 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 08 09:12 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 08 11:22 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 08 11:40 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 08 18:24 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 08 19:31 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 08 20:54 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 09 01:42 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 09 01:47 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 09 01:50 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Dec 09 02:02 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 09 14:46 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 09 16:44 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 09 20:13 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 10 21:58 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 11 10:21 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 11 11:23 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 11 12:02 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 11 13:21 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 11 17:06 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 11 20:27 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 11 22:29 : player: played "Alan Walker ‒ Lost Control.mp3"
+Dec 12 03:39 : player: played "Alan Walker ‒ Lost Control.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 12 17:43 : player: played "Alan Walker ‒ Lost Control.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 12 18:35 : player: played "Alan Walker ‒ Lost Control.mp3"
+Dec 12 20:53 : player: played "Alan Walker ‒ Lost Control.mp3"
+Dec 13 01:57 : player: played "Alan Walker ‒ Lost Control.mp3"
+Dec 13 20:09 : player: played "Alan Walker ‒ Lost Control.mp3"
+Dec 14 01:16 : player: played "Alan Walker ‒ Lost Control.mp3"
+Dec 14 20:51 : player: played "Alan Walker, lily.mp3"
+Dec 15 02:02 : player: played "Alan Walker, lily.mp3"
+Dec 15 02:26 : player: played "Alan Walker, lily.mp3"
+Dec 15 11:09 : player: played "Alan Walker, lily.mp3"
+Dec 15 15:52 : player: played "Alan Walker, lily.mp3"
+Dec 15 16:08 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 15 16:55 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Dec 15 18:15 : player: played "All That Remains - Madness.mp3"
+Dec 15 18:17 : exception: Failed to enable output "pulse audio" (pulse); pa_context_connect() has failed: Connection refused
+Dec 15 18:23 : player: played "All That Remains - Madness.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 15 20:58 : player: played "All That Remains - Madness.mp3"
+Dec 16 02:31 : player: played "All That Remains - Madness.mp3"
+Dec 16 15:59 : player: played "All That Remains - Madness.mp3"
+Dec 16 17:22 : player: played "All That Remains - Madness.mp3"
+Dec 16 20:47 : player: played "All That Remains - Madness.mp3"
+Dec 17 03:15 : player: played "All That Remains - Madness.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 17 20:24 : player: played "All That Remains - Madness.mp3"
+Dec 18 14:07 : player: played "Disturbed - Down With The Sickness (Explicit).mp3"
+Dec 18 14:13 : player: played "Disturbed  - The Sound Of Silence.mp3"
+Dec 18 14:46 : player: played "Hoobastank - The Reason.mp3"
+Dec 18 16:41 : player: played "Disturbed - Down With The Sickness (Explicit).mp3"
+Dec 18 16:45 : player: played "Disturbed - Down With The Sickness (Explicit).mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 23 13:22 : player: played "Hoobastank - The Reason.mp3"
+Dec 23 16:52 : player: played "Hoobastank - The Reason.mp3"
+Dec 23 18:05 : player: played "Hoobastank - The Reason.mp3"
+Dec 23 19:24 : player: played "Hoobastank - The Reason.mp3"
+Dec 23 21:14 : player: played "Hoobastank - The Reason.mp3"
+Dec 23 21:32 : player: played "Hoobastank - The Reason.mp3"
+Dec 24 01:57 : player: played "Hoobastank - The Reason.mp3"
+Dec 24 20:04 : player: played "Hoobastank - The Reason.mp3"
+Dec 24 22:38 : player: played "Hoobastank - The Reason.mp3"
+Dec 25 02:28 : player: played "Hoobastank - The Reason.mp3"
+Dec 25 16:51 : player: played "Hoobastank - The Reason.mp3"
+Dec 25 21:52 : player: played "Hoobastank - The Reason.mp3"
+Dec 26 16:52 : player: played "Hoobastank - The Reason.mp3"
+Dec 26 20:53 : player: played "Hoobastank - The Reason.mp3"
+Dec 27 13:25 : player: played "Hoobastank - The Reason.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 27 19:53 : player: played "Hoobastank - The Reason.mp3"
+Dec 27 20:31 : player: played "Hoobastank - The Reason.mp3"
+Dec 28 02:29 : player: played "Hoobastank - The Reason.mp3"
+Dec 28 13:38 : player: played "Hoobastank - The Reason.mp3"
+Dec 28 14:13 : player: played "Hoobastank - The Reason.mp3"
+Dec 28 18:37 : player: played "Hoobastank - The Reason.mp3"
+Dec 28 20:42 : player: played "Hoobastank - The Reason.mp3"
+Dec 29 11:28 : player: played "ALAN WALKER – Faded.mp3"
+Dec 29 14:24 : player: played "ALAN WALKER – Faded.mp3"
+Dec 29 15:58 : player: played "ALAN WALKER – Faded.mp3"
+Dec 29 17:23 : player: played "ALAN WALKER – Faded.mp3"
+Dec 29 17:34 : player: played "ALAN WALKER – Faded.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Dec 29 20:55 : player: played "ALAN WALKER – Faded.mp3"

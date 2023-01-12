@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+ * Modify by (C) 2021-2023 Darkrift-opt 
 */
 
 /** ********** Fonts ********** **/
@@ -10,9 +11,9 @@
 
 /** ********** Waybar Window ********** **/
 window#waybar {
-    background-color: #000000;
+    background-color: #000;
 	color: #000000;
-    border-bottom: 2px solid #1E2124;
+    border-bottom: 2px solid #D160F1;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -24,8 +25,8 @@ window#waybar.hidden {
 /** ********** Custom ********** **/
 
 #custom-menu {
-	background-color: #06d6cc;
-	color: #000;
+	background-color: #300E50;
+	color: #fff;
 	font-size: 18px;
 	border-radius: 0px 14px 0px 0px;
 	margin: 0px 0px 0px 0px;
@@ -33,24 +34,39 @@ window#waybar.hidden {
 }
 
 #custom-power {
-	background-color: #ffd966;
-	color: #000000;
+	background-color: #D160F1;
+	color: #000;
 	font-size: 16px;
 	border-radius: 10px;
 	margin: 6px 6px 6px 0px;
 	padding: 2px 8px 2px 8px;
 }
 
+#custom-separator {
+  color: #000;
+  margin: 0 2px;
+}
+
 /** ******* workspace ******* **/
 
 #workspaces button {
-    color: #0abab5;
+    background-color: #D160F1;
+    border-radius: 18px;
+    font-size: 10px;
+    margin: 6px 6px 6px 0px;
+    padding: 2px 8px 2px 8px;
+    color: #1C2C8D;
 
+}
+
+#workspaces button:hover {
+    background: rgba(2, 2, 3, 0.3);
+    color: #fff
 }
 
 /** ********** Tray ********** **/
 #tray {
-	background-color: #1E2124;
+	background-color: #D160F1;
 	border-radius: 10px;
 	margin: 6px 0px 6px 6px ;
 	padding: 4px 6px;
@@ -67,14 +83,14 @@ window#waybar.hidden {
 /** ********** MPD ********** **/
 #mpd {
 	color: #fff;
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: bold;
 }
 #mpd.disconnected {
 	color: #DB86BA;
 }
 #mpd.stopped {
-	color: #E49186;
+	color: #000;
 }
 #mpd.playing {
 	color: #fff;
@@ -97,8 +113,8 @@ window#waybar.hidden {
 	padding: 4px 10px 4px 6px;
 }
 #mpd.2,#mpd.3,#mpd.4 {
-	background-color: #000;
-	font-size: 14px;
+	background-color: #D160F1;
+	font-size: 15px;
 }
 
 /** ********** CPU ********** **/
@@ -118,7 +134,7 @@ window#waybar.hidden {
 
 /** ********** Pulseaudio ********** **/
 #pulseaudio {
-	color: #74DD91;
+	color: #9EE9EA;
 }
 #pulseaudio.bluetooth {
 	color: #75DBE1;
@@ -136,12 +152,12 @@ window#waybar.hidden {
 
 /** ********** Backlight ********** **/
 #backlight {
-	color: #E49186;
+	color: #fff;
 }
 
 /** ********** Battery ********** **/
 #battery {
-	color: #B4A1DB;
+	color: #FE4A37;
 }
 #battery.charging {
     color: #a3b899;
@@ -169,7 +185,7 @@ window#waybar.hidden {
 
 /** ********** Network ********** **/
 #network {
-	color: #75DBE1;
+	color: #fff;
 }
 #network.disconnected,#network.disabled {
 	color: #DF8293;
@@ -195,7 +211,7 @@ window#waybar.hidden {
 #memory,
 #pulseaudio,
 #network {
-	background-color: #1E2124;
+	background-color: #D160F1;
 	border-radius: 10px 0px 0px 10px;
 	margin: 6px 0px 6px 0px ;
 	padding: 4px 6px;
@@ -209,8 +225,8 @@ window#waybar.hidden {
 #memory.2,
 #pulseaudio.2,
 #network.2 {
-	background-color: #ffd966;
-	color: #000000;
+	background-color: #D160F1;
+	color: #000;
 	font-size: 11px;
 	font-weight: bold;
 	border-radius: 0px 10px 10px 0px;

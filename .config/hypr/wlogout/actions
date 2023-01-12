@@ -6,7 +6,7 @@
 
 # Ask for confirmation
 cdialog () {
-	yad --title='Confirm?' --borders=15 --center --fixed --undecorated --button=Yes:0 --button=No:1 --text="Are you sure?" --text-align=center
+	yad --image dialog-question --title='Confirm?' --borders=15 --center --fixed --undecorated --button=Yes:0 --button=No:1 --text="Are you sure?" --text-align=center
 }
 
 if [[ "$1" == '--shutdown' ]]; then

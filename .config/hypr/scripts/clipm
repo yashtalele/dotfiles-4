@@ -1,0 +1,8 @@
+#!/bin/env bash
+
+# dmenu theme
+. $HOME/.config/hypr/scripts/bmenu_scheme
+
+prompt="-p clipboard: "
+
+cliphist list | bemenu ${prompt} ${lines} ${hight} \"${font}\" ${colors} | cliphist decode | wl-copy >&2 

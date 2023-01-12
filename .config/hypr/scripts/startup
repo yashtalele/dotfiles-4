@@ -3,30 +3,42 @@
 ## Autostart Programs
 
 # Kill already running process
-_ps=(waybar mako mpd xfce-polkit swww wl-paste)
+_ps=(waybar mako mpd xfce-polkit swaybg wl-paste)
 for _prs in "${_ps[@]}"; do
 	if [[ `pidof ${_prs}` ]]; then
 		killall -9 ${_prs}
 	fi
 done
 
+killall xdg-desktop-portal-hyprland
+killall xdg-desktop-portal-wlr
+killall xdg-desktop-portal 
+
 # Polkit agent
 /usr/lib/xfce-polkit/xfce-polkit &
 
+# Lauch notification daemon (mako)
+~/.config/hypr/scripts/notifications &
+
 # Set wallpaper
-swww init &
-swww img -o eDP-1 ~/.config/hypr/wallpapers/wallpaper-3.jpg --transition-fps 60 --transition-step 5 &
-swww img -o DP-2 ~/.config/hypr/wallpapers/wallpaper-8.jpg --transition-fps 60 --transition-step 5 &
-swww img -o DP-3 ~/.config/hypr/wallpapers/wallpaper-8.jpg --transition-fps 60 --transition-step 5 &
+# wall=$(find $HOME/.config/hypr/wallpapers/ -type f | sort -R | head -1) 
+
+swww init && ~/.local/bin/random-wallpaper && ~/.local/bin/random-Wallpaper &
+
+# swaybg -o \* -i `find $wall -type f | shuf -n 1` -m fill &
+
 
 # Launch wayland protocol
+/usr/libexec/xdg-desktop-portal-hyprland &
+sleep 1
+
+/usr/lib/xdg-desktop-portal &
+
 ~/.config/hypr/scripts/wland &
 
 # Apply themes
 ~/.config/hypr/scripts/gtkthemes &
 
-# Lauch notification daemon (mako)
-~/.config/hypr/scripts/notifications &
 
 # Start mpd
 exec mpd &
@@ -37,7 +49,8 @@ sleep 3 && ~/.config/hypr/scripts/statusbar &
 #killall -SIGUSR2 waybar &
 
 # clipman manager
-wl-paste -t text --watch clipman store --no-persist &
+# wl-paste -t text --watch clipman store --no-persist &
+wl-paste --watch cliphist store & 
 
 hyprctl reload &
 
@@ -45,4 +58,4 @@ hyprctl reload &
 xrdb ~/.Xresources &
 
 # idle lockscreen
-swayidle -w timeout 900 '$HOME/.config/hypr/scripts/gtklock' timeout 300 'pgrep -x gtklock' && mpc pause &
+swayidle -w timeout 900 '$HOME/.config/hypr/scripts/lockscreen' timeout 300 'pgrep -x swaylock' && mpc pause &

@@ -1,0 +1,4 @@
+lines="-l 5"
+hight="-H 38"
+font='--fn Roboto Mono 9'
+colors="--tf #D160F1 --nf #ffffff --ff #d160f1 --hf #D160F1  --tb #000000 --hb #000000 --fb #000000"

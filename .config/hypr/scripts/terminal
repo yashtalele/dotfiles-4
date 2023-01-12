@@ -8,7 +8,7 @@ CONFIG="$HOME/.config/hypr/foot/foot.ini"
 CONFIG1="$HOME/.config/hypr/kitty/kitty.conf"
 
 if [ "$1" == "-f" ]; then
-	foot --app-id='foot-float' --config="$CONFIG"
+	foot --app-id='foot-float' -w 929x456 --config="$CONFIG"
 elif [ "$1" == "-F" ]; then
 	foot --fullscreen --app-id='foot-full' --config="$CONFIG"
 elif [ "$1" == "-s" ]; then

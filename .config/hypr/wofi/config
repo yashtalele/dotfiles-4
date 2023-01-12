@@ -12,7 +12,8 @@ term=alarcitty
 ## Geometry
 width=600px
 height=450px
-location=0
+xoffset=1
+##location=0
 orientation=vertical
 halign=fill
 line_wrap=off

@@ -1,22 +1,24 @@
 // Waybar modules configuration
 {
     "wlr/workspaces": {
-    "disable-scroll": true,
+    "disable- scroll": true,
     "all-outputs": false,
     "disable-markup": false,
     "format": "{icon}",
     "color": "#fff",
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
     "format-icons": {
-        "1": " 1 <span font='Font Awesome 5 Free 8'></span>",
-        "2": " 2 <span font='Font Awesome 5 Free 8'></span>",
-        "3": " 3 <span font='Font Awesome 5 Free 8'></span>",
-        "4": " 4 <span font='Font Awesome 5 Free 8'></span>",
-        "5": " 5 <span font='Font Awesome 5 Free 8'></span>",
-        "6": " 6 <span font='Font Awesome 5 Free 8'></span>",
-        "7": " 7 <span font='Font Awesome 5 Free 8'></span>",
-        "8": " 8 <span font='Font Awesome 5 Free 8'></span>",
-        "9": " 9 <span font='Font Awesome 5 Free 8'></span>",
-        "10": " 0 <span font='Font Awesome 5 Free 8'></span>"
+        "1": "1 <span>  </span>",
+        "2": "2 <span>爵 </span>",
+        "3": "3 <span>  </span>",
+        "4": "4 <span>  </span>",
+        "5": "5 <span>  </span>",
+        "6": "6 <span>爵 </span>",
+        "7": "7 <span>  </span>",
+        "8": "8 <span>  </span>",
+        "9": "9 <span>  </span>"
          }
     },
 
@@ -115,6 +117,12 @@
          "tooltip": false,
          "on-click": "$HOME/.config/hypr/scripts/wlogout",
     },
+
+    "custom/separator": {
+         "format": " ",
+         "interval": "once",
+         "tooltip": false,
+      },
 
 	// waybar-disk
     "disk": {
